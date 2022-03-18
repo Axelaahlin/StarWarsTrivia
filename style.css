@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@1,900&display=swap");
+body {
+  margin: 0px;
+  font-family: 'Source Code Pro', monospace;
+}
+
+body .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: auto;
+}
+
+body .wrapper .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+body .wrapper .main {
+  height: auto;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .wrapper .main .profile1, body .wrapper .main .profile2 {
+  border-radius: 25px;
+  width: 40%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: solid black 3px;
+}
+
+body .wrapper .main .profile1 .buttons, body .wrapper .main .profile2 .buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+body .wrapper .main .profile1 img, body .wrapper .main .profile2 img {
+  max-width: 200px;
+  border-radius: 25px;
+}
+
+body .wrapper .main .profile1 h3, body .wrapper .main .profile2 h3 {
+  margin: 25px;
+}
+
+body .wrapper .main .profile1 p, body .wrapper .main .profile2 p {
+  margin: 2px;
+}
+
+body .wrapper .main .profile1 button, body .wrapper .main .profile2 button {
+  font-family: 'Source Code Pro', monospace;
+}
+
+body .wrapper .choose {
+  height: 17vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+body .wrapper .choose select {
+  padding: 10px;
+  border: 3px solid black;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border-radius: 25px;
+  text-align: center;
+  font-family: 'Source Code Pro', monospace;
+}
+
+body .wrapper .choose button {
+  padding: 10px;
+  border: solid black 3px;
+  border-radius: 25px;
+  font-family: 'Source Code Pro', monospace;
+}
+
+body .wrapper .bubble {
+  width: 50%;
+  height: 70px;
+  border: solid black 3px;
+  padding: 5px 0px;
+  border-radius: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=style.css.map */
