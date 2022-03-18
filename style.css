@@ -2,6 +2,8 @@
 body {
   margin: 0px;
   font-family: 'Source Code Pro', monospace;
+  background-image: url(https://images.unsplash.com/photo-1475139441338-693e7dbe20b6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80);
+  background-size: cover;
 }
 
 body .wrapper {
@@ -36,6 +38,10 @@ body .wrapper .header {
   width: 100%;
 }
 
+body .wrapper .header h1 {
+  color: white;
+}
+
 body .wrapper .main {
   height: auto;
   width: 100%;
@@ -67,7 +73,6 @@ body .wrapper .main .profile1, body .wrapper .main .profile2 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border: solid black 3px;
 }
 
 body .wrapper .main .profile1 .buttons, body .wrapper .main .profile2 .buttons {
@@ -78,15 +83,18 @@ body .wrapper .main .profile1 .buttons, body .wrapper .main .profile2 .buttons {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  background-color: red;
 }
 
 body .wrapper .main .profile1 img, body .wrapper .main .profile2 img {
   max-width: 200px;
   border-radius: 25px;
+  margin-bottom: 20px;
 }
 
 body .wrapper .main .profile1 h3, body .wrapper .main .profile2 h3 {
   margin: 25px;
+  color: white;
 }
 
 body .wrapper .main .profile1 p, body .wrapper .main .profile2 p {
@@ -112,7 +120,8 @@ body .wrapper .choose {
 
 body .wrapper .choose select {
   padding: 10px;
-  border: 3px solid black;
+  border: 3px solid white;
+  border: white;
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
@@ -123,16 +132,19 @@ body .wrapper .choose select {
 
 body .wrapper .choose button {
   padding: 10px;
-  border: solid black 3px;
+  border: solid white 3px;
   border-radius: 25px;
   font-family: 'Source Code Pro', monospace;
 }
 
 body .wrapper .bubble {
-  width: 50%;
+  width: 60%;
   height: 70px;
-  border: solid black 3px;
-  padding: 5px 0px;
+  background-color: white;
+  border: solid white 3px;
+  color: black;
+  padding: 10px;
+  margin-bottom: 10px;
   border-radius: 25px;
   display: -webkit-box;
   display: -ms-flexbox;

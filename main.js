@@ -14,16 +14,17 @@ class Character {
 
   drawCharacters(div){
     div.innerHTML = `
-    <img src="./pictures/${this.id}.png" alt="Picture of ${this.name}">
     <h3>${this.name}</h3>
-    <div class="bubble" data-id=${this.id}> </div
+    <img src="./pictures/${this.id}.png" alt="Picture of ${this.name}">
 
     <div class="buttons">
     <button id="infoBtn" class="height" data-id="${this.id}">Height</button>
     <button id="infoBtn" class="gender" data-id="${this.id}">Gender</button>
     <button id="infoBtn" class="weight" data-id="${this.id}">weight</button>
     <button id="infoBtn" class="hairColor" data-id="${this.id}">Hair color</button>
-    </div>`
+    </div>
+    <div class="bubble" data-id=${this.id}> </div
+    `
   }
 
   checkHeight(otherUser){

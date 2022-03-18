@@ -3,7 +3,9 @@
 body{
   margin: 0px;
   font-family: 'Source Code Pro', monospace;
-
+  background-image: url(https://images.unsplash.com/photo-1475139441338-693e7dbe20b6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80);
+  background-size: cover;
+ 
   .wrapper{
     display: flex;
     flex-direction: column;
@@ -11,14 +13,16 @@ body{
     width: 100%;
     height: auto;
 
-
-
     .header{
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
       width: 100%;
+
+      h1{
+        color:white;
+      }
 
     }
 
@@ -39,19 +43,21 @@ body{
         justify-content: center;
         padding: 20px;
         align-items: center;
-        border: solid black 3px;
 
         .buttons{
           display: flex;
           flex-direction: row;
+          background-color: red;
         }
 
         img{
           max-width: 200px;
           border-radius: 25px;
+          margin-bottom: 20px;
         }
         h3{
           margin: 25px;
+          color: white;
         }
         p{
           margin: 2px;
@@ -71,7 +77,8 @@ body{
 
       select{
         padding: 10px;
-        border: 3px solid black;
+        border: 3px solid white;
+        border: white;
         appearance: none;
         border-radius: 25px;
         text-align: center;
@@ -80,17 +87,20 @@ body{
 
       button{
         padding: 10px;
-        border: solid black 3px;
+        border: solid white 3px;
         border-radius: 25px;
         font-family: 'Source Code Pro', monospace;
       }
     }
 
     .bubble{
-      width: 50%;
+      width: 60%;
       height: 70px; 
-      border: solid black 3px;
-      padding: 5px 0px;
+      background-color: white;
+      border: solid white 3px;
+      color: black;
+      padding: 10px ;
+      margin-bottom: 10px;
       border-radius: 25px;
       display: flex;
       justify-content: center;
